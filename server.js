@@ -31,4 +31,4 @@ app.post('/taskP', async (req, res) => {
 app.listen(port, () => {
     connectDB();
   console.log(`app listening on port ${port}`)
-})
+});
